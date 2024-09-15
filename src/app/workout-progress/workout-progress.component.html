@@ -1,0 +1,17 @@
+<div>
+  <ngx-charts-bar-vertical
+    *ngIf="chartData.length"
+    [view]="[700, 400]"
+    [scheme]="'vivid'"
+    [results]="chartData"
+    [xAxis]="true"
+    [yAxis]="true"
+    [legend]="true"
+    [showXAxisLabel]="true"
+    [showYAxisLabel]="true"
+    [xAxisLabel]="'User'"
+    [yAxisLabel]="'Total Minutes'"
+    [roundEdges]="true"
+  >
+  </ngx-charts-bar-vertical>
+</div>
